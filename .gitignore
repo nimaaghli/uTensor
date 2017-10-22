@@ -33,6 +33,7 @@
 
 #OS stuff
 .DS_Store
+mbed-os
 
 #Project generated test files
 TESTS/scripts/testData
