@@ -269,6 +269,16 @@ mbed compile -t GCC_ARM --profile=./uTensor/build_profile/release.json -f
 Simple MNIST end-to-end uTensor cli example (device)
 Predicted label: 7
 ```
+##Fixing compile errors on Mac 
+
+This version of gcc successfully compiled the code :
+```
+$ brew tap ArmMbed/homebrew-formulae
+$ brew install armmbed/formulae/arm-none-eabi-gcc
+$ arm-none-eabi-gcc --version
+	arm-none-eabi-gcc (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204]
+Copyright (C) 2017 Free Software Foundation, Inc.
+```
 
 ## Further Reading
 
